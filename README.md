@@ -12,7 +12,7 @@ A basic web browser application built using the JavaFX WebEngine. Features inclu
 - History tracking
 - URL input field
 
-<img src="https://imgur.com/a/B39qOFd" width="100%" alt="web_Browser">
+<img src="[https://imgur.com/a/B39qOFd](https://imgur.com/fJGV8Ya)" width="100%" alt="web_Browser">
 
 
 ### 2. Image Slider 🖼️
