@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="myPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label layoutX="28.0" layoutY="97.0" text="Date :">
+         <font>
+            <Font name="System Italic" size="19.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="myDatePicker" layoutX="28.0" layoutY="63.0" onAction="#getDate" prefHeight="26.0" prefWidth="170.0" />
+      <Slider fx:id="mySlider" layoutX="419.0" layoutY="41.0" orientation="VERTICAL" prefHeight="322.0" prefWidth="160.0" showTickLabels="true" showTickMarks="true" value="50.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN">
+               <color>
+                  <Color red="0.75789475440979" green="0.75789475440979" blue="0.75789475440979" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Slider>
+      <Label fx:id="myDate" layoutX="90.0" layoutY="97.0" text="   ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="myTemp" layoutX="62.0" layoutY="183.0" onDragDetected="#changeColor" text="Temperature : ">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="12.0" prefHeight="39.0" prefWidth="318.0" text="Temperature Slider">
+         <font>
+            <Font name="Candara Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <WebView fx:id="webView" layoutX="-2.0" layoutY="54.0" prefHeight="477.0" prefWidth="778.0" />
+      <Button layoutX="59.0" layoutY="26.0" mnemonicParsing="false" onAction="#loadPage" text="Load" />
+      <TextField fx:id="textField" layoutX="57.0" layoutY="-1.0" prefHeight="26.0" prefWidth="721.0" />
+      <Button fx:id="reloadBtn" layoutX="108.0" layoutY="26.0" mnemonicParsing="false" onAction="#refreshPage" text="Reload" />
+      <Button layoutX="719.0" layoutY="26.0" mnemonicParsing="false" onAction="#zoomIn" text="+" />
+      <Button layoutX="746.0" layoutY="26.0" mnemonicParsing="false" onAction="#zoomOut" prefHeight="26.0" prefWidth="25.0" text="-" />
+      <Button fx:id="history" layoutX="167.0" layoutY="26.0" mnemonicParsing="false" onAction="#displayHistory" text="History" />
+      <Button layoutX="3.0" layoutY="-1.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="26.0" text="&lt;" />
+      <Button layoutX="31.0" layoutY="-1.0" mnemonicParsing="false" onAction="#forward" prefHeight="26.0" prefWidth="26.0" text="&gt;" />
+      <Button layoutX="6.0" layoutY="26.0" mnemonicParsing="false" onAction="#returnToHome" text="Home" />
+   </children>
+</AnchorPane>

@@ -4,6 +4,17 @@ Over this past weekend, I dove into the world of Java GUI development and had th
 
 ## Mini-Projects
 
+- [1. Web Browser](#1.-web-browser-)
+- [2. Image Slider](#2-image-slider-)
+- [Deployed Link](#deployed-link-)
+- [Description](#description-)
+- [Features](#features-)
+- [Screenshot](#screenshot-)
+- [Getting Started](#getting-started-)
+- [Usage](#usage-)
+- [Contributing](#contributing-)
+- [Acknowledgments](#acknowledgments-)
+
 ### 1. Web Browser 🌐
 
 A basic web browser application built using the JavaFX WebEngine. Features include:
